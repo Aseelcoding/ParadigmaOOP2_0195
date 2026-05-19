@@ -24,6 +24,17 @@ public:
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    Person* object;
+    Joko a;
+    Lia b;
+
+    object = &a;
+    object->message();
+    object = &b;
+    object->message();
+    a.Person::message();
+    b.Person::message();
+
+    return 0;
 }
 
