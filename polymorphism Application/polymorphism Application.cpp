@@ -15,6 +15,13 @@ public:
         cout << "Message from Joko" << endl;
     }
 };
+class Lia : public Person {
+public:
+    void message() {
+        cout << "Message from Lia" << endl;
+    }
+};
+
 int main()
 {
     std::cout << "Hello World!\n";
