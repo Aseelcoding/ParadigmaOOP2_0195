@@ -8,6 +8,10 @@ public:
     void setSwitchNo(int no, string name) {
         switchNames[no] = name;
     }
+
+    string getSwitchNo(int no) {
+        return switchNames[no];
+    }
 };
 int main()
 {
