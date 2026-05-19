@@ -7,8 +7,14 @@ public:
     virtual void message() {
         cout << "Message from person" << endl;
     }
-};
 
+};
+class Joko : public Person {
+public:
+    void message() {
+        cout << "Message from Joko" << endl;
+    }
+};
 int main()
 {
     std::cout << "Hello World!\n";
