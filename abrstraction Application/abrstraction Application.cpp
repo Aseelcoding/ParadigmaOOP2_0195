@@ -17,5 +17,9 @@ public:
 };
 int main()
 {
+    abrstraction obj;
+    obj.setXY("Hello", "World");
+    obj.display();
+    return 0;
    
 }
