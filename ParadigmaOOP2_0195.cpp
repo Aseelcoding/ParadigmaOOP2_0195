@@ -4,5 +4,5 @@
 using namespace std;
 int main()
 {
-    std::cout << "Hello World!\n";
+    std::cout << "Activity 10-Paradigma OOP part 2\n";
 }
