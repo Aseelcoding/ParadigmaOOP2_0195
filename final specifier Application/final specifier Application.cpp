@@ -11,7 +11,8 @@ public:
 };
 class DerivedClass : public BaseClass {
 public:
-    void introduction1() {
+    void introduction1()
+    {
         cout << "Hello I am a Function from derived Class";
     }
 };
